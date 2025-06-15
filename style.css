@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f6ecff;
+  color: #0A1F44;
+}
+
+.logo {
+  color: #A8FF00;
+  font-size: 1.8rem;
+}
+
+/* Banner */
+.banner {
+  background-color: #1b055a;
+  color: white;
+  text-align: center;
+  padding: 40px;
+  padding-top: 100px;
+}
+.banner h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.btn-banner {
+  background-color: #A8FF00;
+  color: #0A1F44;
+  padding: 12px 25px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+.btn-banner:hover {
+  background-color: #8ACC00;
+}
+
+/* Produtos */
+.produtos {
+  padding: 40px 20px;
+  text-align: center;
+}
+.grid-produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.produto {
+  background-color: #f7efff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.263);
+}
+.produto img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.produto h3 {
+  margin: 10px 0;
+}
+.preco {
+  color: #00BFFF;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.produto button {
+  background-color: #A8FF00;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.produto button:hover {
+    background-color: #8ACC00;
+}
+.imagem_search
+{
+    width: 30px;
+    margin-right: 18px;
+}
+.cab2 {
+  position: relative;
+  width: 100%;
+}
+
+.centralizar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centralizar2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cabecalho {
+  position: fixed;
+  background-color: #3808bd;
+  width: 100vw;
+  z-index: 10;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.Search-Text {
+  border: none;
+  width: 50vw;
+  background-color: transparent;
+}
+
+.Search-Text::placeholder {
+  color: #000000;
+}
+
+.Search-Box {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+@media (max-width: 1000px)
+{
+    .logo
+    {
+        display: none;
+    }
+}

@@ -63,6 +63,7 @@ body {
   padding: 20px;
   width: 250px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.263);
+  text-decoration: none;
 }
 .produto img {
   max-width: 100%;
@@ -70,6 +71,7 @@ body {
 }
 .produto h3 {
   margin: 10px 0;
+  color: black;
 }
 .preco {
   color: #00BFFF;
